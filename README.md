@@ -5,9 +5,9 @@
 
 Note: I restarted the computer to try to run the benchmark as clean as possible. However, the results below were run only once, which might theoretically lead some memory management issues to leak from one test into the subsequent one. (In other words, I think ideally a robust benchmark should include multiple runs, where the order of the benchmark is randomly selected each time.) But for practical purposes, the differences in performance can already be informative.
 
-`Training a simple CNN model with gpu: 237.959 sec elapsed`
-`Training a simple CNN model with cpu: 211.433 sec elapsed`
-`Training a simple CNN model with plaidml using the GPU: 483.239 sec elapsed`
+* `Training a simple CNN model with gpu: 237.959 sec elapsed`
+* `Training a simple CNN model with cpu: 211.433 sec elapsed`
+* `Training a simple CNN model with plaidml using the GPU: 483.239 sec elapsed`
 
 The test was conducted on Thursday, 19 November 2020.
 
@@ -20,6 +20,7 @@ Feel free to fork, send pull requests etc. If you run this example on M1 machine
 ## Gear
 
 CPU: 2.4 GHz 8-Core Intel Core i9
+
 GPU: AMD Radeon Pro 5500M
 
 ## Other information
